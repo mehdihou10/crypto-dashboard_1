@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize.css  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- all.min.css  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- css work  -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Crypto Dashboard</title>
+
+</head>
+<body>
+    
+    <header>
+
+        <div class="container">
+
+            <div class="first flex-ai flex-g">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search">
+                </div>
+            </div>
+
+
+            <div class="second flex-ai g-20">
+                <div class="mode">
+                    <i class="fa-solid fa-sun light active" data-text="hsl(252 , 30% , 17%)" data-bg="white" data-body="#eee" data-change="white"></i>
+                    <i class="fa-solid fa-moon dark" data-text="white" data-bg="black" data-body="#23232a" data-change="black"></i>
+                </div>
+    
+                <div class="profile flex-ai g-15">
+                    <img src="images/profile-1.jpg" alt="profile">
+                    <span class="fw-b fs-15 hi-media-s">Mehdi Hou</span>
+                </div>
+
+                <i class="fa-solid fa-bars bars hi-media-lm"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <i class="fa-solid fa-xmark delete-sidebar hi-media-lm"></i>
+
+                <ul>
+                    <li class="active"><i class="fa-solid fa-table-columns"></i>Dashboard</li>
+                    <li><i class="fa-solid fa-right-left"></i>Exchange</li>
+                    <li><i class="fa-solid fa-wallet"></i>Walet</li>
+                    <li><i class="fa-solid fa-table-list"></i>Transactions</li>
+                    <li><i class="fa-solid fa-chart-line"></i>Analytics</li>
+                    <li><i class="fa-regular fa-envelope"></i>Messages</li>
+                    <li><i class="fa-solid fa-clipboard-question"></i>Help Center</li>
+                    <li><i class="fa-solid fa-gear"></i>Settings</li>
+                </ul>
+
+                <div class="update-box mt-10 d-center">
+                    <div class="content">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span class="title">Update Now</span>
+    
+                        <p>Security Updates</p>
+                        <p>General Updates</p>
+                        
+                        <span class="update-btn">Update Now</span>
+                    </div>
+
+                </div>
+            </div>
+                
+            <section>
+
+                <div class="overview flex-ai g-20">
+                    <h1 class="m-0">Overview</h1>
+                    <input type="date">
+                </div>
+
+                <div class="cards-section">
+                    <div class="card">
+                        <div class="currency">
+
+                            <div class="first">
+                                <div class="image">
+                                    <img src="images/BTC.png" alt="bitcoin">
+                                </div>
+    
+                                <span>BTC</span>
+                            </div>
+
+                            <img src="images/visa.png" alt="visa" class="bank visa">
+
+                        </div>
+
+                        <div class="price">
+                            <span>$827,199</span>
+                            <img src="images/card chip.png" alt="card ship">
+                        </div>
+
+                        <div class="informations">
+                            <div class="info">
+                                <span>Card Holder</span>
+                                <span>Jamie Doe</span>
+
+                            </div>
+
+                            <div class="info">
+                                <span>Expiry</span>
+                                <span>06/23</span>
+                                
+                            </div>
+
+                            <div class="info">
+                                <span>CVV</span>
+                                <span>123</span>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="currency">
+
+                            <div class="first">
+                                <div class="image">
+                                    <img src="images/ETH.png" alt="ETH">
+                                </div>
+    
+                                <span>ETH</span>
+                            </div>
+
+                            <img src="images/master card.png" alt="visa" class="bank master-card">
+
+                        </div>
+
+                        <div class="price">
+                            <span>$91,128</span>
+                            <img src="images/card chip.png" alt="card ship">
+                        </div>
+
+                        <div class="informations">
+                            <div class="info">
+                                <span>Card Holder</span>
+                                <span>Jamie Doe</span>
+
+                            </div>
+
+                            <div class="info">
+                                <span>Expiry</span>
+                                <span>06/23</span>
+                                
+                            </div>
+
+                            <div class="info">
+                                <span>CVV</span>
+                                <span>123</span>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="currency">
+
+                            <div class="first">
+                                <div class="image">
+                                    <img src="images/BTC.png" alt="bitcoin">
+                                </div>
+    
+                                <span>BTC</span>
+                            </div>
+
+                            <img src="images/visa.png" alt="visa" class="bank visa">
+
+                        </div>
+
+                        <div class="price">
+                            <span>$74,384</span>
+                            <img src="images/card chip.png" alt="card ship">
+                        </div>
+
+                        <div class="informations">
+                            <div class="info">
+                                <span>Card Holder</span>
+                                <span>Jamie Doe</span>
+
+                            </div>
+
+                            <div class="info">
+                                <span>Expiry</span>
+                                <span>06/23</span>
+                                
+                            </div>
+
+                            <div class="info">
+                                <span>CVV</span>
+                                <span>123</span>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="market">
+                    <div class="info">
+                        <h3>income</h3>
+                        <span><i class="fa-solid fa-caret-right"></i>Details</span>
+                        <div class="details">
+                            <span>$29,023</span>
+                            <span class="win">2.5%</span>
+                            <p>Compared To 28,019 last month</p>
+                        </div>
+
+                    </div>
+
+                    <div class="info">
+                        <h3>expenses</h3>
+                        <span><i class="fa-solid fa-caret-right"></i>Details</span>
+                        <div class="details">
+                            <span>$9,005</span>
+                            <span class="lose">5.5%</span>
+                            <p>Compared To 11,012 last month</p>
+                        </div>
+
+                    </div>
+
+                    <div class="info">
+                        <h3>Binance</h3>
+                        <span><i class="fa-solid fa-caret-right"></i>Details</span>
+                        <div class="details">
+                            <span>$5,023</span>
+                            <span class="win">2.5%</span>
+                            <p>Compared To 4,011 last month</p>
+                        </div>
+
+                    </div>
+
+                 
+                </div>
+
+                <div class="payement">
+                    <h3>Fast Payement</h3>
+
+                    <div class="content">
+
+                        <div class="info">
+                            <span class="main-color"></span>
+                            <span>Training</span>
+                            <span>$50</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="green"></span>
+                            <span>Internet</span>
+                            <span>$40</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="red"></span>
+                            <span>Gus</span>
+                            <span>$190</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="main-color"></span>
+                            <span>Movies</span>
+                            <span>$38</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="green"></span>
+                            <span>Education</span>
+                            <span>$991</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="red"></span>
+                            <span>Electricity</span>
+                            <span>$189</span>
+                        </div>
+
+                        <div class="info">
+                            <span class="green"></span>
+                            <span>Food</span>
+                            <span>$310</span>
+                        </div>
+                    </div>
+                </div>
+
+                <canvas id="chart"></canvas>
+
+            </section>
+                
+            <div class="right">
+
+                <div class="investments">
+
+                        <h3>Last investments</h3>
+
+                    <div class="informations">
+                        <div class="info">
+                            <img src="images/uniliver.png" alt="company">
+                            <h5>Uniliver</h5>
+
+
+                            <div class="inv-amount">
+                                <div class="cost">1402</div>
+                                <div class="currency">Bonds</div>
+                            </div>
+
+                            <div class="inv-result">
+                                <div class="price">$20k</div>
+                                <div class="lose">1.4%</div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <img src="images/tesla.png" alt="company">
+                            <h5>Tesla</h5>
+
+
+                            <div class="inv-amount">
+                                <div class="cost">1522</div>
+                                <div class="currency">Bonds</div>
+                            </div>
+
+                            <div class="inv-result">
+                                <div class="price">$54k</div>
+                                <div class="win">3.1%</div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <img src="images/monster.png" alt="company">
+                            <h5>Monster</h5>
+
+
+                            <div class="inv-amount">
+                                <div class="cost">1398</div>
+                                <div class="currency">Bonds</div>
+                            </div>
+
+                            <div class="inv-result">
+                                <div class="price">$42k</div>
+                                <div class="lose">0.2%</div>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <img src="images/mcdonalds.png" alt="company">
+                            <h5>McDonalds</h5>
+
+
+                            <div class="inv-amount">
+                                <div class="cost">1613</div>
+                                <div class="currency">Bonds</div>
+                            </div>
+
+                            <div class="inv-result">
+                                <div class="price">$32k</div>
+                                <div class="win">1.7%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transactions mt-20">
+                    <h3>Last Transactions</h3>
+
+                    <div class="informations  mt-20">
+
+                        <div class="info">
+                            <i class="fa-solid fa-headphones main-color"></i>
+
+                            <div class="fw-b fs-14">Music</div>
+
+                            <div class="credit-card visa red">
+                                <img src="images/visa.png" alt="credit card">
+                            </div>
+
+
+
+                            <div class="fw-b fs-14">-$20</div>
+                        </div>
+
+                        <div class="info">
+                            <i class="fa-solid fa-bag-shopping main-color"></i>
+
+                            <div class="fw-b fs-14">Shopping</div>
+
+                            <div class="credit-card master-card">
+                                <img src="images/master card.png" alt="credit card">
+                            </div>
+
+                            
+
+                            <div class="fw-b fs-14">-$1022</div>
+                        </div>
+
+                        <div class="info">
+                            <i class="fa-solid fa-utensils green"></i>
+
+                            <div class="fw-b fs-14">Restaurant</div>
+
+                            <div class="credit-card visa blue">
+                                <img src="images/visa.png" alt="credit card">
+                            </div>
+
+                            
+
+                            <div class="fw-b fs-14">-$156</div>
+                        </div>
+
+                        <div class="info">
+                            <i class="fa-solid fa-gamepad red"></i>
+
+                            <div class="fw-b fs-14">Games</div>
+
+                            <div class="credit-card visa red">
+                                <img src="images/visa.png" alt="credit card">
+                            </div>
+
+                            
+
+                            <div class="fw-b fs-14">-$849</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </main>
+
+    <!-- start body overlay -->
+
+    <span class="body-overlay"></span>
+    <!-- end body overlay -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
